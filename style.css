@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url("https://w7.pngwing.com/pngs/141/532/png-transparent-starry-night-night-sky-star-nebula-galaxy-background-texture-other-atmosphere-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header nav li{
+  color:darkkhaki;
+  list-style: none;
+  background-color: rgb(44, 248, 221);
+}
+button {
+  border-color: rgb(128, 249, 22);
+  width: 100%;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(23, 230, 216, 0.767);
+  color: rgb(5, 10, 1);
+}
+main section {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+ color:darkkhaki;
+}
+nav h2{
+  text-align: center;
+  color:darkkhaki;
+}
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.personajes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarja {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: rgb(62, 180, 8);
+  text-align: center;
+  margin: 8px;
+  border-radius: 20px;
+  width: 160px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nombre-personaje {
+  color: red;
+}
+
+.tarja img {
+  max-width: 100%;
+}
+
+.tarja div {
+  width: 100%;
+}
+nav li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+nav li:hover {
+  color: #ffcc00;
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav li {
+    margin-bottom: 1rem;
+  }
+}
+section {
+  margin:20px;
+  padding: 10px;
+  text-align: center;
+  
+}
+section ul li a{
+  margin-bottom: 10px;
+  color:darkkhaki;
+
+}
+footer {
+  text-size-adjust: 10px ;
+  background-color: rgba(153, 205, 50, 0.708);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div nav ul {
+  list-style: none;
+}
+footer div nav ul li {
+  text-size-adjust: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(65, 250, 253);
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+  border-radius: 10px;
+ 
+}
+
